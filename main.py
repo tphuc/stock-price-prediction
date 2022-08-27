@@ -332,7 +332,7 @@ elif selected_model == 'XGB':
 
 
 
-def plot_close_price():
+def plot_data():
     if selected_type == 'ROC':
         y_col = 'ROC'
     else:
@@ -382,6 +382,6 @@ def plot_close_price():
     st.plotly_chart(fig)
 
 
-plot_close_price()
+plot_data()
 
 
